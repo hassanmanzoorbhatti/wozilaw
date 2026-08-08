@@ -4,16 +4,16 @@ import { FIRM } from "@/lib/site-data";
 import { Ribbon, Wordmark } from "./SiteUi";
 
 const SERVICE_LINKS = [
-  "Private Immigration",
-  "Business Immigration",
-  "Family Law",
+  "Cross-Border Disputes",
+  "Cross-Border Transactions",
+  "Bilingual Legal Advisory",
   "Visas & Settlement",
   "Citizenship & Human Rights",
   "Appeals & Reviews",
 ];
 
 const COMPANY_LINKS = [
-  "About Alcyone",
+  "About Wozi",
   "Our People",
   "Success Stories",
   "News & Insights",

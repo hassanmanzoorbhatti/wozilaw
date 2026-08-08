@@ -1,6 +1,6 @@
 import privateImg from "../assets/service-private.jpg";
-import businessImg from "../assets/alcyone-service-business.jpg";
-import familyImg from "../assets/alcyone-service-family.jpg";
+import businessImg from "../assets/wozi-service-business.jpg";
+import familyImg from "../assets/wozi-service-family.jpg";
 import storyVisitor from "../assets/story-visitor.jpg";
 import storyFamily from "../assets/story-family.jpg";
 import storyBusiness from "../assets/story-business.jpg";
@@ -15,21 +15,21 @@ export type Service = {
 export const PRIMARY_SERVICES: Service[] = [
   {
     number: "01",
-    name: "Private Immigration",
+    name: "Cross-Border Disputes",
     description:
       "Clear advice on visas, settlement, citizenship and complex personal immigration matters.",
     image: privateImg,
   },
   {
     number: "02",
-    name: "Business Immigration",
+    name: "Cross-Border Transactions",
     description:
       "Strategic immigration support for businesses, entrepreneurs, sponsors and professionals.",
     image: businessImg,
   },
   {
     number: "03",
-    name: "Family Law",
+    name: "Bilingual Legal Advisory",
     description:
       "Sensitive, considered guidance for divorce, separation, child arrangements and family matters.",
     image: familyImg,

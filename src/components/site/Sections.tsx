@@ -122,7 +122,7 @@ export function FinalCta() {
         <RevealGroup stagger={0.12}>
           <RevealItem>
             <p className="mx-auto mt-5 max-w-[480px] font-grotesk text-[15px] leading-[1.6] text-[#F7F3EE]/75 md:mt-6 md:text-[17px]">
-              Tell us briefly about your situation and speak with the Alcyone Law team about the next step.
+              Tell us briefly about your situation and speak with the Wozi Law Firm team about the next step.
             </p>
           </RevealItem>
           <RevealItem className="mt-9 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-center md:mt-10">

@@ -218,7 +218,7 @@ html {
 }
 
 
-/* Alcyone client review loop: contained by the 1320px master site frame. */
+/* Wozi client review loop: contained by the 1320px master site frame. */
 @keyframes testimonial-marquee-x {
   from {
     transform: translate3d(0, 0, 0);

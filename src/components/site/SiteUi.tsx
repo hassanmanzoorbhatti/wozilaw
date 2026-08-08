@@ -14,7 +14,7 @@ export function Wordmark({
     <span
       className={`block font-grotesk font-bold uppercase leading-[1.15] tracking-[0.14em] text-clause-cream ${text} ${className}`}
     >
-      Alcyone
+      Wozi
       <br />
       Law
     </span>

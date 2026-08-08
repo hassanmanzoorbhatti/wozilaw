@@ -37,7 +37,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Specialist immigration and family law advice delivered with clarity, precision and personal understanding.",
+          "Cross-border disputes and transactions advice delivered with clarity, precision and personal understanding.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -80,7 +80,7 @@ function Hero() {
               className="mt-5 font-grotesk text-[15px] leading-[1.6] text-clause-muted md:mt-6 md:text-[17px]"
               style={{ maxWidth: "470px" }}
             >
-              Specialist immigration and family law advice for individuals, families and businesses,
+              Cross-border disputes and transactions advice for individuals, families and businesses,
               delivered with clarity, precision and a deeply personal understanding of what is at stake.
             </p>
           </RevealItem>
@@ -147,7 +147,7 @@ function Introduction() {
         />
         <Reveal delay={0.2}>
           <p className="mx-auto mt-6 max-w-[680px] font-grotesk text-[15px] leading-[1.7] text-clause-muted md:text-[17px]">
-            Alcyone Law provides specialist immigration and family law advice from London. The firm
+            Wozi Law Firm provides specialist immigration and family law advice from London. The firm
             combines careful legal analysis with clear communication and a personal understanding of
             the individuals, families and businesses behind every matter.
           </p>
@@ -266,17 +266,17 @@ function Services() {
 const APPROACH = [
   {
     icon: MessagesSquare,
-    title: "Clear Communication",
+    title: "Bilingual Perspective",
     body: "Straightforward legal guidance without unnecessary complexity or uncertainty.",
   },
   {
     icon: ShieldCheck,
-    title: "Strategic Preparation",
+    title: "Strategic Thinking",
     body: "Each matter is considered carefully, with risks anticipated and the next steps clearly planned.",
   },
   {
     icon: LifeBuoy,
-    title: "Personal Support",
+    title: "Client Focus",
     body: "Advice shaped around the person, family or business behind the legal issue.",
   },
 ];
@@ -332,7 +332,7 @@ const STORIES = [
   },
   {
     number: "02",
-    category: "Business Immigration",
+    category: "Cross-Border Transactions",
     title: "From refusal to sponsor licence approval",
     description: "Strategic support for a growing business following an earlier sponsor licence refusal.",
     image: IMG.transactions,
@@ -361,7 +361,7 @@ function SuccessStories() {
           />
           <Reveal delay={0.15}>
             <p className="mt-5 font-grotesk text-[16px] leading-[1.6] text-clause-muted md:text-[17px]">
-              A selection of matters illustrating the careful preparation and strategic thinking behind Alcyone Law's work.
+              A selection of matters illustrating the careful preparation and strategic thinking behind Wozi Law Firm's work.
             </p>
           </Reveal>
         </div>
@@ -431,7 +431,7 @@ function ExperienceSection() {
           />
           <Reveal delay={0.2}>
             <p className="mt-6 max-w-[470px] font-grotesk text-[15px] leading-[1.7] text-clause-muted md:text-[16px]">
-              Alcyone Law focuses on immigration and family matters from its London practice. The firm's approach combines specialist knowledge, strategic preparation and an understanding of how legal decisions affect real lives.
+              Wozi Law Firm focuses on immigration and family matters from its London practice. The firm's approach combines specialist knowledge, strategic preparation and an understanding of how legal decisions affect real lives.
             </p>
           </Reveal>
           <Reveal delay={0.28}>

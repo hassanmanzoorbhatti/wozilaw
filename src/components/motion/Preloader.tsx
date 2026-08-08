@@ -35,7 +35,7 @@ export function Preloader() {
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
           >
-            Alcyone Law
+            Wozi Law Firm
           </motion.span>
         </motion.div>
       )}

@@ -48,7 +48,7 @@ function ReviewCard({ t }: { t: Testimonial }) {
       </div>
       <div className="mt-8 border-t border-clause-border pt-5">
         <p className="font-grotesk text-[11px] font-semibold uppercase tracking-[0.14em] text-clause-muted">
-          Alcyone Law client
+          Wozi Law Firm client
         </p>
         <p className="mt-1 font-grotesk text-[13px] text-clause-muted">{t.label}</p>
       </div>

@@ -14,12 +14,12 @@ function ComingSoon() {
         <div className="h-16 lg:hidden" aria-hidden="true" />
         <main className="flex min-h-[68vh] items-center justify-center border-b border-clause-border px-4 py-20 md:px-24 md:py-28">
           <div className="max-w-[720px] text-center">
-            <Eyebrow>Alcyone Law</Eyebrow>
+            <Eyebrow>Wozi Law Firm</Eyebrow>
             <h1 className="mt-6 font-serif-display text-[38px] font-normal leading-[1.08] text-clause-heading md:text-[56px]">
               This page is coming soon.
             </h1>
             <p className="mx-auto mt-6 max-w-[540px] font-grotesk text-[15px] leading-[1.7] text-clause-muted md:text-[17px]">
-              This concept currently focuses on the Alcyone Law landing page. Additional pages can be developed using the same framed layout and design system.
+              This concept currently focuses on the Wozi Law Firm landing page. Additional pages can be developed using the same framed layout and design system.
             </p>
             <Link
               to="/"

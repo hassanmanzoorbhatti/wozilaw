@@ -6,10 +6,10 @@ import { Eyebrow } from "./SiteUi";
 import { Reveal } from "@/components/motion/Reveal";
 
 const SERVICE_OPTIONS = [
-  "Immigration Law",
+  "Cross-Border Disputes",
   "Property Law",
   "Criminal Defence",
-  "Family Law",
+  "Bilingual Legal Advisory",
   "Financial Claims & Debt Recovery",
   "Business & Legal Disputes",
   "Not sure yet",
