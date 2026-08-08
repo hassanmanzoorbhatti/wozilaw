@@ -59,19 +59,21 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --color-clause-bg: #f7f3ee;
-  --color-clause-surface: #fffdf9;
-  --color-clause-border: rgba(59, 24, 40, 0.14);
-  --color-clause-line: rgba(59, 24, 40, 0.24);
-  --color-clause-pink: #3b1828;
-  --color-clause-onaccent: #f7f3ee;
-  --color-clause-cream: #271019;
-  --color-clause-heading: #271019;
-  --color-clause-muted: #756b6f;
-  --color-clause-sage: #c6a875;
-  --color-clause-stone: #cfc5bd;
-  --color-clause-ink: #1c0d14;
-  --font-serif-display: "Playfair Display", Georgia, serif;
+  /* Wozi Law Firm palette — Primary Navy / Bronze Accent / Warm Ivory */
+  --color-clause-bg: #f8f6f2;
+  --color-clause-surface: #ffffff;
+  --color-clause-border: #ded9cf;
+  --color-clause-line: rgba(23, 26, 32, 0.22);
+  --color-clause-pink: #b08a4a;
+  --color-clause-navy: #123b66;
+  --color-clause-onaccent: #f8f6f2;
+  --color-clause-cream: #171a20;
+  --color-clause-heading: #123b66;
+  --color-clause-muted: #5b6572;
+  --color-clause-sage: #b08a4a;
+  --color-clause-stone: #ded9cf;
+  --color-clause-ink: #102235;
+  --font-serif-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
   --font-grotesk: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -159,21 +161,21 @@
 
 html {
   scrollbar-width: thin;
-  scrollbar-color: rgba(59, 24, 40, 0.3) #f7f3ee;
+  scrollbar-color: rgba(23, 26, 32, 0.25) #f8f6f2;
 }
 
 ::-webkit-scrollbar {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #f7f3ee;
+  background: #f8f6f2;
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.22);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3b1828;
+  background: #b08a4a;
 }
 
 @keyframes marquee-up {
@@ -214,55 +216,5 @@ html {
 @media (prefers-reduced-motion: reduce) {
   .marquee-track {
     animation: none;
-  }
-}
-
-
-/* Wozi client review loop: contained by the 1320px master site frame. */
-@keyframes testimonial-marquee-x {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-
-.testimonial-marquee-track {
-  animation: testimonial-marquee-x 42s linear infinite;
-  will-change: transform;
-}
-
-.testimonial-marquee-mask {
-  mask-image: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgb(0, 0, 0) 4%,
-    rgb(0, 0, 0) 96%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  -webkit-mask-image: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgb(0, 0, 0) 4%,
-    rgb(0, 0, 0) 96%,
-    rgba(0, 0, 0, 0) 100%
-  );
-}
-
-.testimonial-marquee-mask:hover .testimonial-marquee-track {
-  animation-play-state: paused;
-}
-
-@media (max-width: 767px) {
-  .testimonial-marquee-track {
-    animation-duration: 34s;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .testimonial-marquee-track {
-    animation: none;
-    transform: none;
   }
 }

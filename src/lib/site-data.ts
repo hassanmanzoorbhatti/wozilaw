@@ -1,11 +1,26 @@
 export const FIRM = {
- name:'Wozi Law Firm', legalName:'Wozi Law Firm',
- description:'London-headquartered bilingual law firm specialising in cross-border disputes and transactions.',
- address:['London','United Kingdom'], office:'London, United Kingdom', officeTel:'', mobile:'', mobileTel:'', email:'', sra:'Authorised and regulated by the SRA', companyNumber:''
+  name: "Wozi Law Firm",
+  legalName: "Wozi Law Firm",
+  description:
+    "London-headquartered bilingual law firm specialising in cross-border disputes and transactions.",
+  founded: "2024",
+  location: "London, United Kingdom",
+  regulator: "SRA Regulated",
 } as const;
-export const NAV_LINKS=[
- {label:'Home',to:'/'},{label:'Expertise',to:'/coming-soon'},{label:'About',to:'/coming-soon'},{label:'Our People',to:'/coming-soon'},{label:'Insights',to:'/coming-soon'},{label:'Contact',to:'/coming-soon'}
+
+export const NAV_LINKS = [
+  { label: "Home", to: "/" },
+  { label: "Expertise", to: "/coming-soon" },
+  { label: "About", to: "/coming-soon" },
+  { label: "Our People", to: "/coming-soon" },
+  { label: "Insights", to: "/coming-soon" },
+  { label: "Contact", to: "/coming-soon" },
 ] as const;
-export const NETWORK_LOCATIONS=['Cross-Border Disputes','Cross-Border Transactions','Bilingual Advisory','English Law','Chinese Context','International Counsel'] as const;
-export const STATS=[{number:'SRA',label:'Regulated Practice'},{number:'London',label:'Headquartered in the UK'},{number:'EN / 中文',label:'Bilingual Counsel'},{number:'Global',label:'Cross-Border Expertise'}] as const;
-export const HERO_STATS=STATS;
+
+/** Capability badges shown in the statistics row beneath the hero. */
+export const CAPABILITIES = [
+  { label: "SRA Regulated" },
+  { label: "London Based" },
+  { label: "Bilingual Counsel" },
+  { label: "Cross-Border Expertise" },
+] as const;

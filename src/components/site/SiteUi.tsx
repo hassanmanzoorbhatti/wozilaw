@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import type { ReactNode } from "react";
+import logo from "../../assets/wozi-logo.svg";
 
 export function Wordmark({
   className = "",
@@ -9,15 +10,13 @@ export function Wordmark({
   className?: string;
   size?: "sm" | "md";
 }) {
-  const text = size === "sm" ? "text-[11px] md:text-[12px]" : "text-[12px] md:text-[13px]";
+  const height = size === "sm" ? "h-8 md:h-9" : "h-9 md:h-10";
   return (
-    <span
-      className={`block font-grotesk font-bold uppercase leading-[1.15] tracking-[0.14em] text-clause-cream ${text} ${className}`}
-    >
-      Wozi
-      <br />
-      Law
-    </span>
+    <img
+      src={logo}
+      alt="Wozi Law Firm"
+      className={`block w-auto ${height} ${className}`}
+    />
   );
 }
 
@@ -55,7 +54,7 @@ export function PrimaryButton({
       />
     </>
   );
-  const cls = `${baseButton} border border-clause-border bg-clause-pink text-clause-onaccent hover:opacity-90 ${className}`;
+  const cls = `${baseButton} border border-clause-border bg-clause-navy text-clause-onaccent hover:opacity-90 ${className}`;
   if (to) {
     return (
       <Link to={to} className={cls} style={{ borderRadius: "1px" }}>
@@ -166,13 +165,13 @@ export function ZigzagPattern({ className = "" }: { className?: string }) {
         <pattern id="zig" width="24" height="24" patternUnits="userSpaceOnUse">
           <path
             d="M0 24 L12 0 L24 24"
-            stroke="rgba(59,24,40,0.24)"
+            stroke="rgba(38,55,47,0.28)"
             strokeWidth="1.25"
             fill="none"
           />
           <path
             d="M0 12 L12 -12 L24 12"
-            stroke="rgba(59,24,40,0.24)"
+            stroke="rgba(38,55,47,0.28)"
             strokeWidth="1.25"
             fill="none"
           />
@@ -204,13 +203,13 @@ export function Ribbon({ className = "" }: { className?: string }) {
         <pattern id="ribbon-zig" width="24" height="24" patternUnits="userSpaceOnUse">
           <path
             d="M0 24 L12 0 L24 24"
-            stroke="rgba(59,24,40,0.20)"
+            stroke="rgba(38,55,47,0.24)"
             strokeWidth="1.25"
             fill="none"
           />
           <path
             d="M0 12 L12 -12 L24 12"
-            stroke="rgba(59,24,40,0.20)"
+            stroke="rgba(38,55,47,0.24)"
             strokeWidth="1.25"
             fill="none"
           />

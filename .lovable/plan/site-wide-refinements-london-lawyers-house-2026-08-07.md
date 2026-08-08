@@ -23,7 +23,7 @@ Desktop: 96px top/bottom padding, 32px left/right padding. Heading width tuned s
 
 ## Services
 
-All six services show an image card. The three secondary services (Bilingual Legal Advisory, Financial Claims & Debt Recovery, Business & Legal Disputes) currently have no image — they get one each, generated in the same editorial British-legal style as the existing three, and the second grid row uses the same image card layout as the first.
+All six services show an image card. The three secondary services (Family Law, Financial Claims & Debt Recovery, Business & Legal Disputes) currently have no image — they get one each, generated in the same editorial British-legal style as the existing three, and the second grid row uses the same image card layout as the first.
 
 ## Experience section
 

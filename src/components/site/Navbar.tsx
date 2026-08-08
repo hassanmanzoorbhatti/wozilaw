@@ -34,7 +34,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="fixed left-2 right-2 top-0 z-50 border-x border-b border-clause-border bg-[rgba(247,243,238,0.90)] backdrop-blur-[12px] md:sticky md:left-auto md:right-auto md:top-0 md:border-x-0">
+      <nav className="fixed left-2 right-2 top-0 z-50 border-x border-b border-clause-border bg-[rgba(246,247,248,0.86)] backdrop-blur-[12px] md:sticky md:left-auto md:right-auto md:top-0 md:border-x-0">
         <div className="grid h-16 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 md:h-20 md:grid-cols-[auto_1fr] md:px-8">
           <Link to="/" className="flex min-w-0 items-center" aria-label="Wozi Law Firm home">
             <Wordmark />
@@ -43,11 +43,11 @@ export function Navbar() {
           <div className="hidden items-center justify-end gap-8 lg:flex">
             <ul className="flex gap-7 font-grotesk text-[12px] font-medium uppercase tracking-[0.1em] text-clause-cream">
               {NAV_LINKS.map((l) => (
-                <li key={l.to}>
+                <li key={l.label}>
                   <Link
                     to={l.to}
                     activeOptions={{ exact: l.to === "/" }}
-                    activeProps={{ className: "text-clause-pink" }}
+                    activeProps={{ className: l.to === "/" ? "text-clause-pink" : undefined }}
                     className="transition-opacity hover:opacity-70"
                   >
                     {l.label}
@@ -56,7 +56,7 @@ export function Navbar() {
               ))}
             </ul>
             <a
-              href="#contact"
+              href="/#consultation"
               className="inline-flex min-h-[44px] items-center gap-2 border border-clause-pink px-4 py-2 font-grotesk text-[12px] font-semibold uppercase tracking-[0.08em] text-clause-pink transition-colors duration-300 hover:bg-clause-pink hover:text-clause-onaccent"
             >
               Book a Consultation
@@ -111,7 +111,7 @@ export function Navbar() {
             >
               {NAV_LINKS.map((l) => (
                 <motion.div
-                  key={l.to}
+                  key={l.label}
                   variants={{
                     hidden: { opacity: 0, y: 14 },
                     visible: { opacity: 1, y: 0 },
@@ -135,9 +135,9 @@ export function Navbar() {
                 transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
               >
                 <a
-                  href="#contact"
+                  href="/#consultation"
                   onClick={() => setOpen(false)}
-                  className="mt-8 flex min-h-[56px] items-center justify-center gap-3 bg-clause-pink font-grotesk text-[13px] font-bold uppercase tracking-[0.08em] text-clause-onaccent"
+                  className="mt-8 flex min-h-[56px] items-center justify-center gap-3 bg-clause-navy font-grotesk text-[13px] font-bold uppercase tracking-[0.08em] text-clause-onaccent"
                 >
                   Book a Consultation
                   <ArrowRight className="h-4 w-4" strokeWidth={1.5} />
